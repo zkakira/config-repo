@@ -11,3 +11,8 @@ spring:
           destination: learning-spring-boot-comments
           group: comments-service
           content-type: application/json
+management:
+  endpoints:
+   web:
+     exposure:
+       include: "*"
