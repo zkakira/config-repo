@@ -13,3 +13,9 @@ spring:
           destination: learning-spring-boot-chat
           group: comments-chat
           content-type: application/json
+
+management:
+  endpoints:
+   web:
+     exposure:
+       include: "*"
